@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5% ;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color:rgb(020,008,024);
+    font-family: 'Share Tech', sans-serif; 
+    position: relative;
+    color: #fff;
+}
+.logo{
+    font-weight: 600;
+    font-size: 3.8rem;
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+ul li{
+    display: inline-block;
+  list-style: none;
+  padding: 6px 20px;
+  font-weight: 500;
+  font-size: 1.7rem;
+  text-decoration: underline;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  background-color: #ee8f01;
+  border-radius: 25px;
+    text-decoration: none;
+}
+ul li:hover{
+    background-color: #ee8f01;
+    border-radius: 25px;
+    text-decoration: none;
+  }
+header{
+    position: absolute;
+    bottom: 30%;
+    padding: 0 50px;
+
+}
+header h1{
+    font-size: 7rem;
+}
+header h2{
+    font-size: 4rem;
+}
+header p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+}
+header button{
+    padding: 0 5px;
+    width: 140px;
+    height: 40px;
+    border: 0;
+    outline: none;
+    color: #fff;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    background-color: #ee8f01;
+    border-radius: 25px;
+    transition: width 0.5s;
+  }
+  button img{
+    display: none;
+  }
+  button:hover img{
+    display: block;
+  }
+  header button:hover{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 160px;
+  }
+  .icons{
+    position: absolute;
+    bottom: 8%;
+    padding: 0 50px;
+  }
+  .icons i{
+    font-size: 2.5rem;
+    padding: 0 10px;
+    cursor: pointer;
+  }
+  .icons i:hover{
+    color: #fc4120;
+    transition: all 0.3s ease 0s;
+  }
+  .container .vitao{
+    position: absolute;
+    height: 600px;
+    width: 800px;
+    right: 7%;
+    bottom: 0;
+    z-index: 999;
+  }
